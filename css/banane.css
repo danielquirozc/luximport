@@ -2,13 +2,23 @@
 	margin: 2%;
 	padding: 2px;
 }
+
 h1{
 	font-size: 60px;
 	font-family: 'Garamond';
 }
+
 hr{
 	background-color: #97B429;
 }
+
+img {
+	object-fit: cover;
+	width: 70%;
+	max-width: 300px;
+	max-height: 300px;
+}
+
 b{
 	color: #97B429;
 }

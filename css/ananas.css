@@ -12,3 +12,10 @@ h1{
 b{
 	color: #97B429;
 }
+
+img {
+	object-fit: cover;
+	width: 70%;
+	max-width: 300px;
+	max-height: 300px;
+}
