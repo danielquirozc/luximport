@@ -1,0 +1,15 @@
+*{
+	margin: 2%;
+	padding: 2px;
+}
+p{
+	font-family: 'georgia';
+	font-size: 140%;
+}
+h1{
+	font-family: 'Garamond';
+	font-size: 60px;
+}
+hr{
+	background-color: #97B429;
+}

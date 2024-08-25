@@ -1,0 +1,45 @@
+*{
+	margin: 2%;
+	padding: 2px;
+}
+
+h1{
+	font-family: 'Garamond';
+	font-size: 60px;
+}
+
+h2{
+	font-family: 'Garamond';
+	float: left;
+	font-size: 40px;
+}
+
+p{
+	font-family: 'georgia';
+	font-size: 20px;
+}
+
+.c9{
+	float: right;
+
+}
+
+.c3{
+	text-align: left;
+}
+
+.c2{
+	text-align: left;
+}
+
+.c1{
+	text-align: left;
+}
+
+hr{
+	background-color: #97B429;
+}
+
+.c10{
+	font-size: medium;
+}

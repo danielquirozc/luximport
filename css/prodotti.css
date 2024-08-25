@@ -1,0 +1,22 @@
+*{
+	margin: 2%;
+	padding: 2px;
+}
+h1{
+	font-family: 'Garamond';
+	font-size: xx-large;
+}
+.card{
+	float: left;
+}
+hr{
+	background-color: orange;
+}
+.footer{
+	float: left;
+}
+
+.card-img-top {
+	max-height: 300px;
+	object-fit: cover;
+}
