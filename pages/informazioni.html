@@ -11,38 +11,49 @@
 
 <body>
 	<center>
-		<h1>Informazioni</h1>
+		<h1 data-i18n="info-title">Informazioni</h1>
 		<hr>
 		<br><br><br>
+		<div class="container">
+			<div class="row gap-2 align-items-stretch">
+				<div class="col p-3 m-0 d-flex rounded border border-2 justify-content-center flex-column align-items-center bg-body-secondary">
+					<h3 data-i18n="info-vat-title">Partita IVA</h3>
+					<p data-i18n="info-vat-number">01753780095</p>
+				</div>
+				<div class="col p-3 m-0 d-flex rounded border border-2 justify-content-center flex-column align-items-center bg-body-secondary">
+					<h3 data-i18n="info-eori-title">Eori</h3>
+					<p data-i18n="info-eori-number">IT01753780095</p>
+				</div>
+				<div class="col p-3 m-0 d-flex rounded border border-2 justify-content-center flex-column align-items-center bg-body-secondary">
+					<h3 data-i18n="info-address-title">Indirizzo</h3>
+					<p data-i18n="info-address">Via costa cavalli,6,17100, Savona, Sv. Italia</p>
+				</div>
+			</div>
+			<div class="row gap-2 align-items-stretch">
+				<div class="col p-3 m-0 d-flex rounded border border-2 justify-content-center flex-column align-items-center bg-body-secondary">
+					<h3 data-i18n="info-ceo-title">CEO/PROPRIETARIO</h3>
+					<p data-i18n="info-ceo-name">Andrea Maiorano</p>
+				</div>
+				<div class="col p-3 m-0 d-flex rounded border border-2 justify-content-center flex-column align-items-center bg-body-secondary">
+					<h3 data-i18n="info-phone-title">Telefono</h3>
+					<p data-i18n="info-phone-number">+39 327 873 5925</p>
+				</div>
+				<div class="col p-3 m-0 d-flex rounded border border-2 justify-content-center flex-column align-items-center bg-body-secondary">
+					<h3 data-i18n="info-email-title">Indirizzo e-mail</h3>
+					<p data-i18n="info-email">Luximport00@gmail.com</p>
+				</div>
+			</div>
+		</div>
 
-		<h3>Partita IVA</h3>
-		<p>01753780095</p>
+		<p>
+			<a href="../index.html"
+				class="link-primary fs-5 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+				data-i18n="footer-returnLink">
+				Torna alla Pagina Principale
+			</a>
+		</p>
 
-		<h3>Eori</h3>
-		<p>IT01753780095</p>
-
-		<h3>Indirizzo</h3>
-		<p>Via costa cavalli,6,17100, Savona, Sv. Italia</p>
-
-		<h3>CEO/PROPRIETARIO</h3>
-		<p>Andrea Maiorano</p>
-
-		<h3>Telefono</h3>
-		<p>+39 327 873 5925</p>
-
-		<h3>Indirizzo e-mail</h3>
-		<p>Luximport00@gmail.com</p>
-
-
-	</center>
-
-	<p>
-		<a 
-			href="../index.html"
-			class="link-primary fs-5 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
-			Torna alla Pagina Principale
-		</a>
-	</p>
+		<script type="module" src="../i18n.js"></script>
 </body>
 
 </html>

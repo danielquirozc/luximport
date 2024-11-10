@@ -4,14 +4,16 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Lux Import">  
+  <meta property="og:site_name" content="Lux Import">
   <meta property="og:title" content="Lux Import">
   <meta property="og:description" content="Importatore di frutta italiana di alta qualità.">
   <meta property="og:image" content="/imagenes/logo.png">
   <meta name="robots" content="index, follow">
   <meta property="og:url" content="https://luximport.it/">
-  <meta name="description" content="Importatore di frutta italiana di alta qualità. Scopri la nostra selezione di prodotti freschi e genuini, direttamente dall'Italia.">
-  <meta name="keywords" content="Importatore di frutta italiana, Importatore di frutta, Importatore di mele, Importatore di arance, Importatore di frutta italiana, product, prodotti, frutta, ananas, banane, azienda, empresa, productos, frutas, sono, italia, importazione, sempre, siempre, ">
+  <meta name="description"
+    content="Importatore di frutta italiana di alta qualità. Scopri la nostra selezione di prodotti freschi e genuini, direttamente dall'Italia.">
+  <meta name="keywords"
+    content="Importatore di frutta italiana, Importatore di frutta, Importatore di mele, Importatore di arance, Importatore di frutta italiana, product, prodotti, frutta, ananas, banane, azienda, empresa, productos, frutas, sono, italia, importazione, sempre, siempre, ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
@@ -20,27 +22,38 @@
   <title>Lux Import</title>
 </head>
 
-<body class="d-flex flex-column p-0 m-0">
+<body class="d-flex flex-column">
   <center>
     <nav class="navbar c1 navbar-expand-lg m-4 rounded p-3">
-      <div class="container-fluid d-flex flex-wrap justify-content-between">
-        <a class="navbar-brand garamond w-50 fs-3 text-start fw-bolder" href="./index.html">
-          <h1>Lux Import</h1>
+      <div class="container-fluid d-flex justify-content-between">
+        <a class="navbar-brand garamond text-start fw-bold" href="./index.html">
+          <h1 class="fs-2 fw-bolder">Lux Import</h1>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav inter ms-auto mr-0 fw-bold">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav align-items-center fs-6 inter ms-auto mr-0">
             <li class="nav-item">
-              <a class="nav-link active fs-5 text-nowrap" aria-current="page" href="./pages/chiSiamo.html">Chi Siamo</a>
+              <a data-i18n="nav-chi-siamo" class="nav-link px-0 mx-2 effect-underline text-nowrap" aria-current="page"
+                href="./pages/chiSiamo.html">Chi Siamo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fs-5" aria-current="page" href="./pages/prodotti.html">Prodotti</a>
+              <a data-i18n="nav-prodotti" class="nav-link px-0 mx-2 effect-underline text-nowrap" aria-current="page"
+                href="./pages/prodotti.html">Prodotti</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fs-5" aria-current="page" href="./pages/informazioni.html">Informazioni</a>
+              <a data-i18n="nav-informazioni" class="nav-link px-0 mx-2 effect-underline text-nowrap" aria-current="page"
+                href="./pages/informazioni.html">Informazioni</a>
             </li>
+            <div class="dropdown d-flex flex-column rounded cursor-pointer position-relative nav-item">
+              <button class="overflow-hidden rounded" id="btnChangeLang">
+                <span class="nav-link effect-underline px-3 text-nowrap" data-i18n="localeSwitcher">Cambiar Idioma</span>
+              </button>
+              <ul class="d-none py-2 position-absolute top-100 rounded overflow-hidden p-0 w-100" id="langSelect">
+              </ul>
+            </div>
           </ul>
         </div>
       </div>
@@ -52,36 +65,46 @@
       style="border-radius: 0%; width: 100%; height: 100%; max-width: 900px;">
   </div>
 
-  <h2 class="text-center m-5 fs-1 garamond">Testimonianze</h2>
-  <div class="d-flex inter fs-5 lh-sm flex-row justify-content-center flex-wrap gap-4 mx-5">
+  <h2 data-i18n="testimonianze" class="text-center m-5 fs-1 garamond">Testimonianze</h2>
+  <div class="d-flex inter fs-5 lh-sm flex-wrap flex-row justify-content-center gap-4 mx-5">
     <div class="testimonio flex-column d-flex w-25 border p-4 rounded bg-body-secondary">
-      <p class="flex-fill fs-5">
-        "Sono cliente di questa azienda da anni e la qualità delle loro frutte è sempre eccezionale! Le mele e le arance che compro sono fresche e deliziose. Consiglio vivamente a chiunque cerchi prodotti genuini e di alta qualità."
+      <p class="flex-fill" data-i18n="testimonianze-1">
+        "Sono cliente di questa azienda da anni e la qualità delle loro frutte è sempre eccezionale! Le mele e le arance
+        che compro sono fresche e deliziose. Consiglio vivamente a chiunque cerchi prodotti genuini e di alta qualità."
       </p>
       <sub class="py-4">- Mario Rossi</sub>
     </div>
     <div class="testimonio flex-column d-flex w-25 border p-4 rounded bg-body-secondary">
-      <p class="flex-fill fs-5">
-        "La varietà di frutta offerta è incredibile! Ogni volta che acquisto qui, so di ricevere prodotti freschi e saporiti. Il servizio clienti è sempre disponibile e cordiale. Non potrei essere più soddisfatto."
+      <p class="flex-fill" data-i18n="testimonianze-2">
+        "La varietà di frutta offerta è incredibile! Ogni volta che acquisto qui, so di ricevere prodotti freschi e
+        saporiti. Il servizio clienti è sempre disponibile e cordiale. Non potrei essere più soddisfatto."
       </p>
       <sub class="py-4">- Luca Bianchi</sub>
     </div>
     <div class="testimonio flex-column d-flex w-25 border p-4 rounded bg-body-secondary">
-      <p class="flex-fill fs-5">
-        "Amo fare la spesa presso questa azienda. La frutta è sempre fresca, succosa e saporita. Inoltre, apprezzo molto il loro impegno per la sostenibilità e la cura per l'ambiente. Una scelta di cui non mi pento mai!"
+      <p class="flex-fill">
+        "Amo fare la spesa presso questa azienda. La frutta è sempre fresca, succosa e saporita. Inoltre, apprezzo molto
+        il loro impegno per la sostenibilità e la cura per l'ambiente. Una scelta di cui non mi pento mai!"
       </p>
       <sub class="py-4">- Matteo Verdi</sub>
     </div>
   </div>
 
-  <footer class="mt-5 flex-fill bg-body-secondary py-3 container-fluid d-flex justify-content-between flex-wrap align-items-center">
-    <p class="container text-center fs-5">©2024 · Tutti i diritti riservati
+  <footer
+    class="mt-5 flex-fill bg-body-secondary py-3 container-fluid d-flex justify-content-between flex-wrap align-items-center">
+    <p data-i18n="footer-copyright" class="container text-center fs-5">©2024 · Tutti i diritti riservati
     </p>
     <div class="container justify-content-center d-flex gap-4">
-      <a class="text-nowrap link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="./pages/politica.html">Politica sulla privacy</a>
-      <a class="text-nowrap  link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="./pages/normativa.html">Regolamenti</a>
+      <a data-i18n="footer-politica-privacy"
+        class="text-nowrap link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+        href="./pages/politica.html">Politica sulla privacy</a>
+      <a data-i18n="footer-normativa"
+        class="text-nowrap  link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+        href="./pages/normativa.html">Regolamenti</a>
     </div>
   </footer>
+  <script src="./i18n.js" type="module"></script>
+  <script src="./localeSwitcher.js" type="module"></script>
   <script src="./js/bootstrap.min.js"></script>
 </body>
 

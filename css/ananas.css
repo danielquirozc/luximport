@@ -10,6 +10,8 @@ h1{
 	font-family: 'Garamond';
 }
 b{
+	padding: 0px;
+	margin: 0px;
 	color: #97B429;
 }
 

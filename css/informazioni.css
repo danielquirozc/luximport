@@ -12,3 +12,8 @@ hr{
 .c10{
 	font-size: medium;
 }
+
+.col {
+	min-width: 190px;
+	min-height: 150px;
+}
